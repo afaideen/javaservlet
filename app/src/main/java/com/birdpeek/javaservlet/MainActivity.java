@@ -49,7 +49,7 @@ class ServletPostAsyncTask extends AsyncTask<Pair<Context, String>, Void, String
         try {
             // Set up the request
 //            URL url = new URL("http://10.0.2.2:8080/hello");  //tested ok
-            URL url = new URL("https://javaservlet-dot-playchat-53073.appspot.com/hello");
+            URL url = new URL("https://1-dot-playchat-53073.appspot.com/hello");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoInput(true);
